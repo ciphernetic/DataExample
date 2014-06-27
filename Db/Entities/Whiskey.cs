@@ -40,16 +40,5 @@ namespace DataExample.Db.Entities
 			Fruity = fruity;
 			Floral = floral;
 		}
-
-		/// <summary>
-		/// Constructor takes an ordered comma delimited string that represents
-		/// all values in the whiskey class.
-		/// </summary>
-		/// <param name="delimitedRow">Ordered comma delimited string.</param>
-		public Whiskey(string delimitedRow)
-		{
-			string[] cols = delimitedRow.Split(',');
-
-		}
 	}
 }
